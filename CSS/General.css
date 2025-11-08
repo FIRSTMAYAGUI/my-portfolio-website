@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+:root{
+    --bg-clr: #191f36;
+    --bg2-clr: #262840;
+    --text-clr: #fff;
+    --main-clr: #5982f4;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Nunito';
+    color: var(--text-clr);
+    background-color: var(--bg-clr); 
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+span{
+    color: var(--main-clr); 
+}
+
+.space{
+    margin-top: 2rem;
+}
+
+section{
+    padding: 10rem 9% 2rem;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+
+/* @media (max-width: 640px){
+
+    .skill{
+        width: 100%;
+        min-height: 80vh;
+        gap: 1rem;
+    }
+}
+@media (max-width: 779px){
+
+    .links{
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-clr);
+        box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.3);
+    }
+
+    .links.active{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s ease;
+    }
+
+    .links.active ul{
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #Hero{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .short{
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn1{
+        width: 100px;
+        font-size: 1.6rem;
+        border: 2px solid pink;
+    }
+
+    .Hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hero-content h3{
+        font-size: 2rem;
+    }
+
+    .Hero-social-media{
+        margin-top: 20px;
+    }
+
+    .about-text{
+        width: 100vw;
+        height: 100%;
+    }
+    .project-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 992px){
+
+    #about{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #about img{
+        width: 23vw;
+        height: 60vh;
+    }
+    
+    .skill img{
+        width: 60px;
+    }
+
+    .skill h1{
+        font-size: 1.2rem;
+        width:  min-content; 
+    }
+
+    .skill .description{
+        font-size: 0.8rem;
+    }
+
+    .contact-container{
+        width: 650px;
+    }
+}
+
+@media (max-width: 1200px){
+    
+    .header{
+        width: 100vw;
+        font-size: 0.9rem;
+    }
+
+    .links ul li{
+        margin-right: 1rem;
+    }
+
+    .about-text{
+        font-size: 20px;
+    }
+
+    .footer-to-top a .btn{
+        padding: 3px;
+        font-size: 17px;
+        width: 40px;
+        height: 43px;
+    }
+}
+ */

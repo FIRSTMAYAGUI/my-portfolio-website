@@ -1,0 +1,114 @@
+.footer {
+    background-color: var(--bg2-clr);
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: var(--main-clr);
+    flex: 1;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    justify-content: center;
+}
+
+.footer-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--main-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    background-color: var(--main-clr);
+    color: var(--bg2-clr);
+}
+
+.footer-to-top {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-to-top a .btn {
+    padding: 8px;
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+    color: var(--bg2-clr);
+    background-color: var(--main-clr);
+    animation: button 2s ease infinite;
+    border-radius: 8px;
+}
+
+@keyframes button {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-links {
+        gap: 0.8rem;
+    }
+
+    .footer-links a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .footer-to-top a .btn {
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-text {
+        font-size: 0.8rem;
+    }
+
+    .footer-links {
+        gap: 0.6rem;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer-to-top a .btn {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+    }
+}

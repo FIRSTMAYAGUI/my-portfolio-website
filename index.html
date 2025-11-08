@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIRST MAYAGUI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
+  <link rel="icon" type="image/svg+xml" href="Images/Star.svg" />
+  <link rel="stylesheet" href="CSS/General.css" />
+  <link rel="stylesheet" href="CSS/Header.css" />
+  <link rel="stylesheet" href="CSS/Hero.css" />
+  <link rel="stylesheet" href="CSS/About.css" />
+  <link rel="stylesheet" href="CSS/Skills.css" />
+  <link rel="stylesheet" href="CSS/Projects.css" />
+  <link rel="stylesheet" href="CSS/Contact.css" />
+  <link rel="stylesheet" href="CSS/Footer.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav id="navbar">
+      <div class="myName">
+        <h1>AJ FIRST MAYAGUI</h1>
+      </div>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="home" id="home">
+    <!-- Hero section -->
+    <section class="container" id="Hero">
+      <div class="Hero-content">
+        <h3>Hi, I'm <span class="name">FIRST MAYAGUI</span></h3>
+        <h4>I'm a <span class="typing" id="typed-skill"></span></h4>
+        <p class="short">
+          I’m a dedicated developer committed to crafting intuitive web solutions
+          that delight users and drive results.
+        </p>
+        <div class="Hero-social-media">
+          <a href="https://github.com/FIRSTMAYAGUI"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/first-mayagui-5684a7352/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="#about"><button class="btn btn1">Get Started</button></a>
+      </div>
+      <div class="Hero-image">
+        <img src="Images/picture2.jpg" alt="Profile picture" />
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="container space" id="about">
+      <img src="Images/picture.jpg" alt="About Me portrait" />
+      <div class="about-content">
+        <h1 class="about-title">About <span>Me</span></h1>
+        <div class="about-text">
+          I am a full-stack web developer with a passion for user-centric design.
+          My journey spans front-end development in React and Tailwind css to
+          back-end implementation with PHP and Laravel. I enjoy collaborating
+          cross-functionally to bring ideas to life and delivering seamless,
+          high-performing web experiences.
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="container space" id="skills">
+      <h1 class="skills-title">My Skills</h1>
+      <div class="skills-container">
+
+        <div class="skill">
+          <img src="Images/icons8-code-64.png" alt="Frontend icon" />
+          <h1>Frontend Development</h1>
+          <p class="description">
+            Building responsive, dynamic interfaces with modern tools like
+            React, HTML5, CSS3, and JavaScript. I focus on clean, efficient code
+            and engaging user experiences.
+          </p>
+          <div class="tech-stack">
+            <p>HTML CSS JS</p>
+            <div class="level-container">
+              <div class="level-color level-color1"></div>
+            </div>
+            <p>REACT JS</p>
+            <div class="level-container">
+              <div class="level-color level-color2"></div>
+            </div>
+            <p>TAILWIND CSS</p>
+            <div class="level-container">
+              <div class="level-color level-color3"></div>
+            </div>
+            <p>BOOTSTRAP</p>
+            <div class="level-container">
+              <div class="level-color level-color3"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <img src="Images/icons8-database-64.png" alt="Backend icon" />
+          <h1>Backend Development</h1>
+          <p class="description">
+            Experienced in PHP and Laravel for building RESTful APIs, managing
+            databases, and integrating secure authentication systems.
+          </p>
+          <div class="tech-stack">
+            <p>PHP</p>
+            <div class="level-container">
+              <div class="level-color level-color4"></div>
+            </div>
+            <p>LARAVEL</p>
+            <div class="level-container">
+              <div class="level-color level-color5"></div>
+            </div>
+            <p>NODE JS & EXPRESS JS</p>
+            <div class="level-container">
+              <div class="level-color level-color5"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <img src="Images/icons8-pallete-99.png" alt="Design icon" />
+          <h1>Designer</h1>
+          <p class="description">
+            Proficient in UI/UX design using Figma—capable of designing wireframes, interactive prototypes, and refined user interfaces that enhance usability and visual appeal.
+          </p>
+          <div class="tech-stack">
+            <p>FIGMA</p>
+            <div class="level-container">
+              <div class="level-color level-color6"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Project section -->
+    <section class="container space" id="projects">
+      <h1>Latest <span>Projects</span></h1>
+      <div class="project-container">
+
+        <div class="project-card">
+          <img src="Images/project.PNG" alt="MyMonth clone" />
+          <div class="project-description">
+            <h2>MyMonth Clone</h2>
+            <p>
+                A freelance platform clone that connects Cameroonian businesses with qualified independent professionals.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images/movie-app.PNG" alt="Movie Search App" />
+          <div class="project-description">
+            <h2>Movie Search App</h2>
+            <p>
+              A sleek React app with API integration that enables users to
+              browse and learn about movies, view ratings, and save favorites.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images/todo-list.PNG" alt="Todo List" />
+          <div class="project-description">
+            <h2>Todo List</h2>
+            <p>
+              A clean and simple to-do list web app for organizing daily tasks
+              and boosting productivity.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images/Blog-website.PNG" alt="Task Manager" />
+          <div class="project-description">
+            <h2>Blog Website</h2>
+            <p>
+              A dynamic blog platform built with PHP and Bootstrap, allowing users to publish, edit, and explore articles with a responsive design.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images/travel-journal.PNG" alt="Travel Journal" />
+          <div class="project-description">
+            <h2>Travel Journal</h2>
+            <p>
+              A digital journal for logging travel memories, pairing photos with
+              maps and personalized entries.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images/weather-app.PNG" alt="Weather App" />
+          <div class="project-description">
+            <h2>Weather App</h2>
+            <p>
+              A real-time weather application fetching data from an external API
+              to display current conditions and forecasts.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images/laptop-.jpg" alt="Portfolio Website" />
+          <div class="project-description">
+            <h2>Portfolio Website</h2>
+            <p>
+              A personal portfolio site showcasing projects, skills, and my
+              resume with responsive and accessible design.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images/Registration-form.PNG" alt="Registration Form" />
+          <div class="project-description">
+            <h2>Registration Form</h2>
+            <p>
+              A responsive sign-up form that includes field validation and
+              accessible form controls.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="container space" id="contact">
+      <h1>Contact <span>Me</span></h1>
+      <div class="contact-container">
+        <form
+          action="mailto:firstmayaguijunior@gmail.com"
+          method="post"
+          class="contact-form"
+        >
+          <div class="form-inputs">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <div class="form-inputs">
+            <input type="tel" placeholder="Phone number" />
+            <input type="text" placeholder="Subject" required />
+          </div>
+          <textarea
+            cols="30"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer class="container footer">
+    <div class="footer-text">
+      <p>Copyright ©2025 by @firstmayagui | All Rights Reserved</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/FIRSTMAYAGUI">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/first-mayagui-5684a7352/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="mailto:firstmayaguijunior@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+    <div class="footer-to-top">
+      <a href="#Hero">
+        <button class="btn"><i class="fa-solid fa-angle-up"></i></button>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="JS/Script.js"></script>
+</body>
+</html>
