@@ -67,6 +67,24 @@
     text-align: center;
 }
 
+.project-description a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--bg2-clr);
+    color: var(--text-clr);
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-description a:hover {
+    background-color: var(--bg-clr); /* slightly darker on hover */
+    transform: translateY(-2px);
+}
+
 .project-card:hover .project-description {
     transform: translateY(0);
 }
